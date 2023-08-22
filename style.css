@@ -79,17 +79,26 @@ header{
     }
 
 @media (max-width: 780px)
-
-header{
+{
+    header{
         padding-left: 25px;
     }
 
     .content-text{
-        transform: translateX(0%)    
+        transform: translateX(0%);    
         top: 80px;
         font-size: 100px;
         width: 100px;
         text-align: center;
     }
+    .content-image{
+        height: 70vh;
+    }
+
+    footer{
+        padding: 0px 25px;
+    }
+}
+
 
 
