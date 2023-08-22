@@ -57,22 +57,39 @@ header{
     text-align: end;
    }
 
+   .content.image{
+    height: 85vh;
+   }
+
+
    footer{
     
     height: 100px;
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
     padding-right: 75px;
-    
-    
-    .content-autor{
-    position: absolute;
+    padding-left: 75px;
     color: #FFFFFF;
-    font-size: 20px;
-    width: 200px;
-    transform: translateX(-50%);
-    text-align: end;
+    font-weight: 100;
+   }
+
+    footer div{
+        width: 64px;
     }
 
-}
+@media (max-width: 780px)
+
+header{
+        padding-left: 25px;
+    }
+
+    .content-text{
+        transform: translateX(0%)    
+        top: 80px;
+        font-size: 100px;
+        width: 100px;
+        text-align: center;
+    }
+
+
